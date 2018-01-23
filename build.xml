@@ -1,12 +1,12 @@
 
-<project defult="comile">
+<project default="compile">
   <property name="src.java.dir" location="./src"/>
   <property name="result.dir" location="./target"/>
-  <property name="result.javaClasses.dir" location="${result.dir}/clsses"/>
+  <property name="result.javaClasses.dir" location="${result.dir}/classes"/>
   
   <target name="compile">
     <mkdir dir="${result.javaclasses.dir}"/>
-    <javac sredir="${src.jva.dir}"desrdir="${result.javaclasses.dir}" debug="true" includeantruntime="false">
+    <javac sredir="${src.java.dir}" destdir="${result.javaclasses.dir}" debug="true" includeantruntime="false">
     </javac>
     
   </target>
