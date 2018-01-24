@@ -6,3 +6,7 @@ public class Main {
 		System.out.println("hello");
 	}
 }
+
+public void PrintMsg(String msg){
+	System.out.println(msg);
+}
