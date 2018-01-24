@@ -6,7 +6,7 @@
   
   <target name="compile">
     <mkdir dir="${result.javaclasses.dir}"/>
-    <javac sredir="${src.java.dir}" destdir="${result.javaclasses.dir}" debug="true" includeantruntime="false">
+    <javac Sredir="${src.java.dir}" destdir="${result.javaclasses.dir}" debug="true" includeantruntime="false">
     </javac>
     
   </target>
